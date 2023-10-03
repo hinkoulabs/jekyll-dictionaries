@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0de0db4-04ba-4a6e-9544-85d905789a03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jekyll-dictionaries.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/History.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jekyll-dictionaries.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/dictionary_api_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/dictionary_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/generator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/_multiple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/_single.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/multiple/greetings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/multiple/unit1/_metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/multiple/unit1/numbers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/single/greetings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/single/unit1/numbers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary_api.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/api/multiple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/api/single.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/jekyll-dictionaries_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +66,7 @@
       <updated>1696301317963</updated>
       <workItem from="1696301319406" duration="9538000" />
       <workItem from="1696310885150" duration="15107000" />
-      <workItem from="1696338033417" duration="4516000" />
+      <workItem from="1696338033417" duration="5090000" />
     </task>
     <servers />
   </component>

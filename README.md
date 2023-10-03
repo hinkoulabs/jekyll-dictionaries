@@ -31,7 +31,7 @@ Generate 2 layouts for dictionary documentation and api:
 
 **_layouts/dictionary_api.json:**
 
-```json
+```liquid
 ---
 ---
 {% assign content = page.content | jsonify %}{% assign docPage = page.related_page %}{% if docPage %}{"docPath":"{{ docPage.url | absolute_url }}",{{ content | remove_first: '{' }}{% else %}{{ content }}{% endif %}
@@ -39,7 +39,7 @@ Generate 2 layouts for dictionary documentation and api:
 
 **_layouts/dictionary.html:**
 
-```html
+```liquid
 ---
 layout: page
 ---
