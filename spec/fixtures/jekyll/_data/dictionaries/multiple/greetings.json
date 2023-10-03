@@ -1,0 +1,7 @@
+{
+    "name": "Greetings",
+    "type": "collection",
+    "data": [
+        {"learning":"¡Hola!", "en":"Hello!", "ru":"Привет!", "de":"Hallo!", "fr":"Bonjour!", "pt":"Olá!"}
+    ]
+}

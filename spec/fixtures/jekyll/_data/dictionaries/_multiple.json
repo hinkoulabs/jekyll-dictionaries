@@ -1,0 +1,9 @@
+{
+    "version": "1.0.1",
+    "name": "Basic (Multiple Languages)",
+    "translationType": "multiple",
+    "learning": "es",
+    "translations": [
+        "en", "ru", "de", "fr", "pt"
+    ]
+}

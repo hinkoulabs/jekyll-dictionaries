@@ -1,0 +1,45 @@
+{
+    "type": "collection",
+    "data": [
+        {
+            "primary": "one",
+            "learning": "uno"
+        },
+        {
+            "primary": "two",
+            "learning": "dos"
+        },
+        {
+            "primary": "three",
+            "learning": "tres"
+        },
+        {
+            "primary": "four",
+            "learning": "cuatro"
+        },
+        {
+            "primary": "five",
+            "learning": "cinco"
+        },
+        {
+            "primary": "six",
+            "elearnings": "seis"
+        },
+        {
+            "primary": "seven",
+            "learning": "siete"
+        },
+        {
+            "primary": "eight",
+            "learning": "ocho"
+        },
+        {
+            "primary": "nine",
+            "learning": "nueve"
+        },
+        {
+            "primary": "ten",
+            "learning": "diez"
+        }
+    ]
+}

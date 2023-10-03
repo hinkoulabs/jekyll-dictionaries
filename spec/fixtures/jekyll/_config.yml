@@ -1,0 +1,10 @@
+plugins:
+  - jekyll-dictionaries
+
+dictionaries:
+  dictionary:
+    layout: dictionary
+    permalink: dictionaries/:name
+  dictionary_api:
+    layout: dictionary_api
+    permalink: api/dictionaries/:name.json

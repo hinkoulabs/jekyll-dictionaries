@@ -1,0 +1,55 @@
+---
+layout: page
+---
+
+<h1>Info</h1>
+<table>
+    <tbody>
+    <tr>
+        <th>Name</th>
+        <td>{{ page.content.name }}</td>
+    </tr>
+    <tr>
+        <th>Version</th>
+        <td>{{ page.content.version }}</td>
+    </tr>
+    <tr>
+        <th>Learning</th>
+        <td>{{ page.content.learning }}</td>
+    </tr>
+
+    <tr>
+        <th>Translation Type</th>
+        <td>{{ page.content.translationType }}</td>
+    </tr>
+
+    {% if page.content.translationType == 'multiple' %}
+
+    <tr>
+        <th>Translations</th>
+        <td>{{ page.content.translations | join: ', ' }}</td>
+    </tr>
+    {% endif %}
+
+    {% assign apiPage = page.related_page %}
+
+    {% if apiPage %}
+
+    <tr>
+        <th> <a href="{{ apiPage.url | relative_url }}" target="_blank">API LINK</a> </th>
+        <td>
+            <button onclick="copyToClipboard('{{ apiPage.url | absolute_url }}')">Copy to Clipboard</button>
+        </td>
+    </tr>
+    {% endif %}
+
+
+    </tbody>
+</table>
+
+<script>
+    function copyToClipboard(text) {
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(text);
+    }
+</script>

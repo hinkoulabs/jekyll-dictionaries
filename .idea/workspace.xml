@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0de0db4-04ba-4a6e-9544-85d905789a03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jekyll-dictionaries.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/History.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jekyll-dictionaries.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/dictionary_api_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/dictionary_page.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/generator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/_multiple.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/_single.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/multiple/greetings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/multiple/unit1/_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/multiple/unit1/numbers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/single/greetings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_data/dictionaries/single/unit1/numbers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary_api.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/api/multiple.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/api/single.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/jekyll-dictionaries_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WEcjgC80wlCjXuxXvYFq2ebd1H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/s.ginkov/Work/Hinkou Labs/jekyll-dictionaries/spec/fixtures/jekyll&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/fixtures/jekyll" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/spec/fixtures/snapshots/pages" />
+      <recent name="$PROJECT_DIR$/spec/fixtures/jekyll" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spec/fixtures/snapshots/api" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0de0db4-04ba-4a6e-9544-85d905789a03" name="Changes" comment="" />
+      <created>1696301317963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696301317963</updated>
+      <workItem from="1696301319406" duration="9538000" />
+      <workItem from="1696310885150" duration="15107000" />
+      <workItem from="1696338033417" duration="4516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

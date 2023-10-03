@@ -1,0 +1,85 @@
+{
+    "type": "collection",
+    "data": [
+        {
+            "learning": "uno",
+            "en": "one",
+            "ru": "один",
+            "de": "eins",
+            "fr": "un",
+            "pt": "um"
+        },
+        {
+            "learning": "dos",
+            "en": "two",
+            "ru": "два",
+            "de": "zwei",
+            "fr": "deux",
+            "pt": "dois"
+        },
+        {
+            "learning": "tres",
+            "en": "three",
+            "ru": "три",
+            "de": "drei",
+            "fr": "trois",
+            "pt": "três"
+        },
+        {
+            "learning": "cuatro",
+            "en": "four",
+            "ru": "четыре",
+            "de": "vier",
+            "fr": "quatre",
+            "pt": "quatro"
+        },
+        {
+            "learning": "cinco",
+            "en": "five",
+            "ru": "пять",
+            "de": "fünf",
+            "fr": "cinq",
+            "pt": "cinco"
+        },
+        {
+            "learning": "seis",
+            "en": "six",
+            "ru": "шесть",
+            "de": "sechs",
+            "fr": "six",
+            "pt": "seis"
+        },
+        {
+            "learning": "siete",
+            "en": "seven",
+            "ru": "семь",
+            "de": "sieben",
+            "fr": "sept",
+            "pt": "sete"
+        },
+        {
+            "learning": "ocho",
+            "en": "eight",
+            "ru": "восемь",
+            "de": "acht",
+            "fr": "huit",
+            "pt": "oito"
+        },
+        {
+            "learning": "nueve",
+            "en": "nine",
+            "ru": "девять",
+            "de": "neun",
+            "fr": "neuf",
+            "pt": "nove"
+        },
+        {
+            "learning": "diez",
+            "en": "ten",
+            "ru": "десять",
+            "de": "zehn",
+            "fr": "dix",
+            "pt": "dez"
+        }
+    ]
+}
