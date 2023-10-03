@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0de0db4-04ba-4a6e-9544-85d905789a03" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jekyll-dictionaries/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <updated>1696301317963</updated>
       <workItem from="1696301319406" duration="9538000" />
       <workItem from="1696310885150" duration="15107000" />
-      <workItem from="1696338033417" duration="5090000" />
+      <workItem from="1696338033417" duration="5443000" />
     </task>
     <servers />
   </component>
