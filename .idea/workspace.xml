@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0de0db4-04ba-4a6e-9544-85d905789a03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jekyll-dictionaries/generator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/generator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/multiple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,25 +24,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/s.ginkov/Work/Hinkou Labs/jekyll-dictionaries/spec/fixtures/jekyll&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/s.ginkov/Work/Hinkou Labs/jekyll-dictionaries/spec/fixtures/snapshots/pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/fixtures/snapshots/pages" />
       <recent name="$PROJECT_DIR$/spec/fixtures/jekyll" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.idea" />
@@ -69,7 +67,7 @@
       <updated>1696301317963</updated>
       <workItem from="1696301319406" duration="9538000" />
       <workItem from="1696310885150" duration="15107000" />
-      <workItem from="1696338033417" duration="9452000" />
+      <workItem from="1696338033417" duration="9869000" />
     </task>
     <servers />
   </component>

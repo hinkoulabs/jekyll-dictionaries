@@ -20,6 +20,7 @@ Welcome to the Jekyll Dictionaries Plugin project! This open-source project allo
 - [Dictionary Types Examples](#dictionary-types-examples)
     - [1. Single Translation Dictionary Example](#1-single-translation-dictionary-example)
     - [2. Multiple Translations Dictionary Example](#2-multiple-translations-dictionary-example)
+- [Push New Version Commands](#push-new-version-commands)
 - [License](#license)
 
 ## Installation
@@ -480,6 +481,14 @@ The plugin will generate JSON API **/api/dictionaries/multiple.json**
 ```
 
 As you can see collection `greetings` and folder `un1` have names that are defined by property `name`.
+
+## Push New Version Commands
+
+```bash
+ gem bump
+ gem build jekyll-dictionaries.gemspec
+ gem push jekyll-dictionaries-1.0.2.gem
+```
 
 ## License
 
