@@ -1,5 +1,8 @@
 # Jekyll Dictionaries Plugin
 
+[![Continuous Integration](https://github.com/hinkoulabs/jekyll-dictionaries/actions/workflows/ruby.yml/badge.svg)](https://github.com/hinkoulabs/jekyll-dictionaries/actions/workflows/ruby.yml) [![Gem Version](https://badge.fury.io/rb/jekyll-dictionaries.svg)](https://badge.fury.io/rb/jekyll-dictionaries)
+
+
 Welcome to the Jekyll Dictionaries Plugin project! This open-source project allows you to create and share JSON dictionaries that can be accessed via a public API for language learning in mobile applications.
 
 ## Table of Contents
