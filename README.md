@@ -38,7 +38,7 @@ Generate 2 layouts for dictionary documentation and api:
 ```liquid
 ---
 ---
-{% assign content = page.content | jsonify %}{% assign docPage = page.related_page %}{% if docPage %}{"docPath":"{{ docPage.url | absolute_url }}",{{ content | remove_first: '{' }}{% else %}{{ content }}{% endif %}
+{% assign content = page.content | jsonify %}{% assign docPage = page.related_page %}{% if docPage %}{"docUrl":"{{ docPage.url | absolute_url }}",{{ content | remove_first: '{' }}{% else %}{{ content }}{% endif %}
 ```
 
 **_layouts/dictionary.html:**
@@ -336,7 +336,7 @@ _data/dictionaries/single/unit1/numbers.json
 The plugin will generate JSON API **/api/dictionaries/single.json**
 
 ```json
-{"docPath":"http://example.org/dictionaries/single","version":"1.0.0","name":"Basic (One Language)","translationType":"single","learning":"es","data":[{"name":"Greetings","type":"collection","data":[{"learning":"¡Hola!","primary":"Hello!"}]},{"type":"folder","name":"unit1","data":[{"name":"numbers","type":"collection","data":[{"primary":"one","learning":"uno"},{"primary":"two","learning":"dos"},{"primary":"three","learning":"tres"},{"primary":"four","learning":"cuatro"},{"primary":"five","learning":"cinco"},{"primary":"six","elearnings":"seis"},{"primary":"seven","learning":"siete"},{"primary":"eight","learning":"ocho"},{"primary":"nine","learning":"nueve"},{"primary":"ten","learning":"diez"}]}]}]}
+{"docUrl":"http://example.org/dictionaries/single","version":"1.0.0","name":"Basic (One Language)","translationType":"single","learning":"es","data":[{"name":"Greetings","type":"collection","data":[{"learning":"¡Hola!","primary":"Hello!"}]},{"type":"folder","name":"unit1","data":[{"name":"numbers","type":"collection","data":[{"primary":"one","learning":"uno"},{"primary":"two","learning":"dos"},{"primary":"three","learning":"tres"},{"primary":"four","learning":"cuatro"},{"primary":"five","learning":"cinco"},{"primary":"six","elearnings":"seis"},{"primary":"seven","learning":"siete"},{"primary":"eight","learning":"ocho"},{"primary":"nine","learning":"nueve"},{"primary":"ten","learning":"diez"}]}]}]}
 ```
 
 ### 2. Multiple Translations Dictionary Example
@@ -477,7 +477,7 @@ _data/dictionaries/multiple/unit1/numbers.json
 The plugin will generate JSON API **/api/dictionaries/multiple.json**
 
 ```json
-{"docPath":"http://example.org/dictionaries/multiple","version":"1.0.0","name":"Basic (Multiple Languages)","translationType":"multiple","learning":"es","translations":["en","ru","de","fr","pt"],"data":[{"name":"Greetings","type":"collection","data":[{"learning":"¡Hola!","en":"Hello!","ru":"Привет!","de":"Hallo!","fr":"Bonjour!","pt":"Olá!"}]},{"type":"folder","name":"Unit 1","data":[{"name":"numbers","type":"collection","data":[{"learning":"uno","en":"one","ru":"один","de":"eins","fr":"un","pt":"um"},{"learning":"dos","en":"two","ru":"два","de":"zwei","fr":"deux","pt":"dois"},{"learning":"tres","en":"three","ru":"три","de":"drei","fr":"trois","pt":"três"},{"learning":"cuatro","en":"four","ru":"четыре","de":"vier","fr":"quatre","pt":"quatro"},{"learning":"cinco","en":"five","ru":"пять","de":"fünf","fr":"cinq","pt":"cinco"},{"learning":"seis","en":"six","ru":"шесть","de":"sechs","fr":"six","pt":"seis"},{"learning":"siete","en":"seven","ru":"семь","de":"sieben","fr":"sept","pt":"sete"},{"learning":"ocho","en":"eight","ru":"восемь","de":"acht","fr":"huit","pt":"oito"},{"learning":"nueve","en":"nine","ru":"девять","de":"neun","fr":"neuf","pt":"nove"},{"learning":"diez","en":"ten","ru":"десять","de":"zehn","fr":"dix","pt":"dez"}]}]}]}
+{"docUrl":"http://example.org/dictionaries/multiple","version":"1.0.0","name":"Basic (Multiple Languages)","translationType":"multiple","learning":"es","translations":["en","ru","de","fr","pt"],"data":[{"name":"Greetings","type":"collection","data":[{"learning":"¡Hola!","en":"Hello!","ru":"Привет!","de":"Hallo!","fr":"Bonjour!","pt":"Olá!"}]},{"type":"folder","name":"Unit 1","data":[{"name":"numbers","type":"collection","data":[{"learning":"uno","en":"one","ru":"один","de":"eins","fr":"un","pt":"um"},{"learning":"dos","en":"two","ru":"два","de":"zwei","fr":"deux","pt":"dois"},{"learning":"tres","en":"three","ru":"три","de":"drei","fr":"trois","pt":"três"},{"learning":"cuatro","en":"four","ru":"четыре","de":"vier","fr":"quatre","pt":"quatro"},{"learning":"cinco","en":"five","ru":"пять","de":"fünf","fr":"cinq","pt":"cinco"},{"learning":"seis","en":"six","ru":"шесть","de":"sechs","fr":"six","pt":"seis"},{"learning":"siete","en":"seven","ru":"семь","de":"sieben","fr":"sept","pt":"sete"},{"learning":"ocho","en":"eight","ru":"восемь","de":"acht","fr":"huit","pt":"oito"},{"learning":"nueve","en":"nine","ru":"девять","de":"neun","fr":"neuf","pt":"nove"},{"learning":"diez","en":"ten","ru":"десять","de":"zehn","fr":"dix","pt":"dez"}]}]}]}
 ```
 
 As you can see collection `greetings` and folder `un1` have names that are defined by property `name`.
