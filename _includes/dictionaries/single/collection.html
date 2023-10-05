@@ -1,0 +1,20 @@
+<table>
+    <thead>
+        <tr>
+            <th>Learning</th>
+            <th>Primary</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in include.items %}
+        <tr>
+            <td>
+                {% include dictionaries/collectionItem.html value=item.learning note=item.notes.learning %}
+            </td>
+            <td>
+                {% include dictionaries/collectionItem.html value=item.primary note=item.notes.primary %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

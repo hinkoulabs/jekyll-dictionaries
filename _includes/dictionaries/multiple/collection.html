@@ -1,0 +1,24 @@
+<table>
+    <thead>
+        <tr>
+            <th>Learning</th>
+            {% for translation in include.translations %}
+                <th>{{ translation }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in include.items %}
+        <tr>
+            <td>
+                {% include dictionaries/collectionItem.html value=item.learning note=item.notes.learning %}
+            </td>
+            {% for translation in include.translations %}
+                {% assign value = item[translation] %}
+                {% assign note = item.notes[translation] %}
+                <td>{% include dictionaries/collectionItem.html value=value note=note %}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

@@ -7,8 +7,8 @@ Welcome to the Jekyll Dictionaries Plugin project! This open-source project allo
 
 ## Table of Contents
 
+- [Intro](#intro)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Dictionaries Structure](#dictionaries-structure)
 - [Dictionary Types](#dictionary-types)
     - [1. Single Translation Dictionary](#1-single-translation-dictionary)
@@ -23,102 +23,45 @@ Welcome to the Jekyll Dictionaries Plugin project! This open-source project allo
 - [Push New Version Commands](#push-new-version-commands)
 - [License](#license)
 
+## Intro
+
+The plugin will automatically generate dictionary and dictionary api pages for all dictionaries located into folder `_data/dictionaries` of jekyll project.
+
 ## Installation
 
-Add this line to your site's Gemfile:
+1. Add this line to your site's Gemfile:
 
 ```ruby
 gem 'jekyll-dictionaries'
 ```
 
-Generate 2 layouts for dictionary documentation and api:
+2. Include `dictionary/head.html` into default layout to add custom styles of the plugin (the plugin styles are added as inline css styles and it might be updated if it's needed):
 
-**_layouts/dictionary_api.json:**
-
-```liquid
----
----
-{% assign content = page.content | jsonify %}{% assign docPage = page.related_page %}{% if docPage %}{"docUrl":"{{ docPage.url | absolute_url }}",{{ content | remove_first: '{' }}{% else %}{{ content }}{% endif %}
+```html
+<head>
+  ...
+   {% include dictionaries/head.html %}
+</head>
 ```
 
-**_layouts/dictionary.html:**
+3. Include `dictionaries/list.html` into index page to show a list of available dictionaries:
 
-```liquid
----
-layout: page
----
-
-<h1>Info</h1>
-<table>
-    <tbody>
-    <tr>
-        <th>Name</th>
-        <td>{{ page.content.name }}</td>
-    </tr>
-    <tr>
-        <th>Version</th>
-        <td>{{ page.content.version }}</td>
-    </tr>
-    <tr>
-        <th>Learning</th>
-        <td>{{ page.content.learning }}</td>
-    </tr>
-
-    <tr>
-        <th>Translation Type</th>
-        <td>{{ page.content.translationType }}</td>
-    </tr>
-
-    {% if page.content.translationType == 'multiple' %}
-
-    <tr>
-        <th>Translations</th>
-        <td>{{ page.content.translations | join: ', ' }}</td>
-    </tr>
-    {% endif %}
-
-    {% assign apiPage = page.related_page %}
-
-    {% if apiPage %}
-
-    <tr>
-        <th> <a href="{{ apiPage.url | relative_url }}" target="_blank">API LINK</a> </th>
-        <td>
-            <button onclick="copyToClipboard('{{ apiPage.url | absolute_url }}')">Copy to Clipboard</button>
-        </td>
-    </tr>
-    {% endif %}
-
-
-    </tbody>
-</table>
-
-<script>
-    function copyToClipboard(text) {
-        // Copy the text inside the text field
-        navigator.clipboard.writeText(text);
-    }
-</script>
+```html
+  {% include dictionaries/list.html %}
 ```
 
-And then add this lines to your site's `_config.yml`:
+4. (OPTIONAL) Also it's possible to change layout and permalink of dictionary pages on site's `_config.yml`:
 
 ```yml
-plugins:
-  - jekyll-dictionaries
-
 dictionaries:
-  dictionary:
-    layout: dictionary
-    permalink: dictionaries/:name
-  dictionary_api:
-    layout: dictionary_api
-    permalink: api/dictionaries/:name.json
+  pages:
+    dictionary:
+      layout: dictionary
+      permalink: dictionaries/:name
+    dictionary_api:
+      layout: dictionary_api
+      permalink: api/dictionaries/:name.json
 ```
-
-## Usage
-
-The plugin will automatically generate dictionary and dictionary api pages for all dictionaries located into folder `_data/dictionaries` of jekyll project.
 
 ## Dictionaries Structure
 

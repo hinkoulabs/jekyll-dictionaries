@@ -31,11 +31,6 @@ layout: page
     </tr>
     {% endif %}
 
-    <tr>
-        <th>Top Level Count</th>
-        <td>{{ page.content.data.size }}</td>
-    </tr>
-
     {% assign apiPage = page.related_page %}
 
     {% if apiPage %}
@@ -51,6 +46,14 @@ layout: page
 
     </tbody>
 </table>
+
+{% if page.content.translationType == 'single' %}
+    {% include dictionaries/single/container.html items=page.content.data prefix='dict-level' %}
+{% else %}
+    {% include dictionaries/multiple/container.html items=page.content.data translations=page.content.translations prefix='dict-level' %}
+{% endif %}
+
+{% include dictionaries/accordion.html %}
 
 <script>
     function copyToClipboard(text) {

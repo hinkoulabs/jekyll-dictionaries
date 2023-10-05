@@ -1,0 +1,13 @@
+{% for item in include.items %}
+
+{% include dictionaries/collectionName.html item=item %}
+
+<div class="accordion-panel {{ item.type }}-container">
+  {% case item.type %}
+  {% when "folder" %} 
+    {% include dictionaries/single/container.html items=item.data %}
+  {% when "collection" %}
+    {% include dictionaries/single/collection.html items=item.data %}
+  {% endcase %}
+</div>
+{% endfor %}

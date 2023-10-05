@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["hinkoulabs"]
   spec.email = ["siarhei.hinkou@hinkoulabs.com"]
 
-  spec.summary = "A Jekyll plugin to generate JSON dictionaries for language learning applications"
+  spec.summary = "A Jekyll theme plugin to generate JSON dictionaries for language learning applications"
   spec.homepage = "https://github.com/hinkoulabs/jekyll-dictionaries"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
@@ -29,4 +29,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'minima', '~> 2.5'
 end

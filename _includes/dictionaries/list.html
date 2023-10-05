@@ -1,0 +1,13 @@
+<div class="dictionary-list">
+    <h2 class="list-header">Dictionary APIs</h2>
+    {% assign dictPages = site.pages | where_exp: "item", "item.scope == 'dictionary'" %}
+    {% if dictPages.size > 0 %}
+    <ul>
+        {% for page in dictPages %}
+        <li>
+            <a href="{{ page.url | relative_url }}" target="blank">{{ page.name | escape }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

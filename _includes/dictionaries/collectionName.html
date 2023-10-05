@@ -1,0 +1,2 @@
+{% capture icon %}{% if include.item.type == 'folder' %}<i class="accordion-icon fa fa-folder" aria-hidden="true"></i>{% endif %}{% endcapture %}
+<button class="accordion">{{ icon}} {{ include.item.name }}</button>

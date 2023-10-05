@@ -1,3 +1,0 @@
----
----
-{% assign content = page.content | jsonify %}{% assign docPage = page.related_page %}{% if docPage %}{"docPath":"{{ docPage.url | absolute_url }}",{{ content | remove_first: '{' }}{% else %}{{ content }}{% endif %}

@@ -1,73 +1,53 @@
-require_relative './dictionary_page'
-require_relative './dictionary_api_page'
+require_relative 'pages/dictionary'
+require_relative 'pages/dictionary_api'
+
+require_relative 'generators/dictionaries'
+require_relative 'generators/theme'
 
 module JekyllDictionaries
   class Generator < Jekyll::Generator
-    DICT_REGEX = /^_(.*)/
+    CONFIG = {
+      'pages' => {
+        'dictionary' => {
+          'layout' => 'dictionary',
+          'permalink' => 'dictionaries/:name'
+        },
+        'dictionary_api' => {
+          'layout' => 'dictionary_api',
+          'permalink' => 'api/dictionaries/:name.json'
+        }
+      }
+    }
 
     safe true
 
     def generate(site)
       @site = site
-      dicts = site.data['dictionaries'].inject([]) do |memo, (k, v)|
-        # dictionary start with _
-        m = k.match(DICT_REGEX)
-        if m
-          dict = v.merge('data' => [])
 
-          name = m[1]
+      Generators::Theme.new(site).generate
 
-          folder = site.data['dictionaries'][name]
+      dictionaries = Generators::Dictionaries.new(site).generate
 
-          if (folder)
-            dict['data'] = build_collections(folder)
-          end
-
-          memo << OpenStruct.new(filename: name, content: dict)
-        end
-        memo
-      end
-
-      dicts.each do |dict|
-        api_page = DictionaryApiPage.new(site, dict, config)
-        doc_page = DictionaryPage.new(site, dict, config)
-
-        api_page.related_page = doc_page
-        doc_page.related_page = api_page
-
-        site.pages << api_page
-        site.pages << doc_page
+      dictionaries.each do |dictionary|
+        build_dictionary_pages(dictionary)
       end
     end
 
     protected
 
     def config
-      @config ||= @site.config["dictionaries"] || {}
+      @config ||= Jekyll::Utils.deep_merge_hashes(CONFIG, @site.config["dictionaries"] || {})
     end
 
-    def build_collections(folder_content)
-      folder_content.inject([]) do |memo, (k, v)|
-        if v.is_a?(Hash)
-          # collection is detected
-          if (v['type'] == 'collection')
-            # set k as title if title is missing
-            memo << { 'name' => v['name'] || k }.merge(v)
-          else
-            metadata = v['_metadata']
-            # folder is detected
-            memo
-            folder = {
-              'type' => 'folder',
-              'name' => metadata ? metadata['name'] : k,
-              'data' => build_collections(v.select { |kk, _| kk != '_metadata' })
-            }
-            memo << folder
-          end
-        end
+    def build_dictionary_pages(dictionary)
+      api_page = Pages::DictionaryApi.new(@site, dictionary, config['pages']['dictionary_api'])
+      doc_page = Pages::Dictionary.new(@site, dictionary, config['pages']['dictionary'])
 
-        memo
-      end
+      api_page.related_page = doc_page
+      doc_page.related_page = api_page
+
+      @site.pages << api_page
+      @site.pages << doc_page
     end
   end
 end
