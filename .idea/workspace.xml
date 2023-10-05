@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0de0db4-04ba-4a6e-9544-85d905789a03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/generators/dictionaries.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/generators/theme.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/pages/dictionary.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/pages/dictionary_api.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_includes/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/History.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/History.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jekyll-dictionaries.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/jekyll-dictionaries.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jekyll-dictionaries.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jekyll-dictionaries/dictionary_api_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jekyll-dictionaries/dictionary_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jekyll-dictionaries/generator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jekyll-dictionaries/generator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/jekyll/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/jekyll/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/jekyll/_layouts/dictionary_api.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/snapshots/api/multiple.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/api/multiple.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/snapshots/api/single.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/api/single.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/multiple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/snapshots/pages/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +69,7 @@
       <updated>1696301317963</updated>
       <workItem from="1696301319406" duration="9538000" />
       <workItem from="1696310885150" duration="15107000" />
-      <workItem from="1696338033417" duration="29066000" />
+      <workItem from="1696338033417" duration="29337000" />
     </task>
     <servers />
   </component>

@@ -430,7 +430,7 @@ As you can see collection `greetings` and folder `un1` have names that are defin
 ```bash
  gem bump
  gem build jekyll-dictionaries.gemspec
- gem push jekyll-dictionaries-1.0.2.gem
+ gem push jekyll-dictionaries-*.gem
 ```
 
 ## License
